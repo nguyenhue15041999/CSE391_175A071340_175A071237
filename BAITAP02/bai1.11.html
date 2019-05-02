@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Tạo form và các điều khiển trên form </title>
+</head>
+<body>
+    <form>
+        <table align="center"  border="1" cellpadding="0" cellspacing="2" style="background-color: #B0E2FF">
+            <h2 align="center" style="color: red">Đăng nhập</h2>
+            <tr>
+				<td>Mã người dùng:</td>
+				<td ><input type="text" name="mnd"></td>
+			</tr>
+			<tr>
+				<td>Mật khẩu:</td>
+				<td><input type="password" name="Mật khẩu"></td>
+            </tr>
+            <tr>
+				<td align="center" colspan="2">
+					<button type="button" onclick="xuat.innerText=mnd.value">Đồng ý</button>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<div id="xuat"></div>
+				</td>
+			</tr>
+        
+        </table>
+    </form>
+</body>
+</html>

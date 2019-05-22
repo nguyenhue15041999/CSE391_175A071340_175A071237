@@ -1,9 +1,32 @@
 header {
     background-color: brown;
 }
+nav{
+    background-color: brown;
+}
+html{  
+    height:100%;
+    font-size:11px;
+    }
 ul{
     list-style-type:none;
 }
+.card{
+    
+      }
+
 footer{
     background-color: brown;
+    color: aliceblue;
+    width: 100%;
 }
+
+  body {
+    width:100%;
+    padding:0;
+    margin:0;
+    background:url("../images/.png") repeat-x scroll 0 0 #E6E6E6;
+    color: #333333;
+    font-family: Arial, Tahoma, Helvetica, sans-serif;
+    line-height: 1.5;
+    }

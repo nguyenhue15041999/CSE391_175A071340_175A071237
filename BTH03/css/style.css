@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(248, 91, 104);
+}
+
+.navbar {
+    padding: 0px 0px;
+}
+.nav-link {
+    color: rgb(7, 7, 7);
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.active {
+    color: rgb(45, 107, 241);
+    font-weight: bold;
+    border-bottom: 5px solid rgb(28, 82, 230);
+}
+.PS1 {
+    width: 55%;
+    background-color: white;
+    margin-top: 70px;
+    border-radius: 15px;
+}
+
+.PS1 .col-1 {
+    padding: 0px 0px 0px 0px;
+}
+
+.PS1 .col-11 {
+    padding: 0px 0px 0px 0px;
+}
+
+.PS1 .col-1 img {
+    width: 20px;
+    height: 20px;
+}
+
+.PS1 .col-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.PS1 .row {
+    padding: 10px;
+}
+
+
+
+#input-task {
+    width: 100%;
+}
+
+.PS1 .row-task {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 10px;
+}

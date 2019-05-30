@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ĐẠI HỌC HÀ NỘI</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="bootstrap/js/bootstrap.js"></script>
@@ -13,25 +14,20 @@
 
 </head>
 <body>
-    <div class="container">
-        <header>
-            <div class="row">
-                <div class=" col-md-6">
-                    <img src="img/logoHanu.png" alt="no">
+       <div id="header">
+            <div class="banner">
+                <div class="row">
+                    <div class="col-7">
+                        <img src="img/logoHanu.png" alt="logo">
                 </div>
-                <div class="search">
-                  <input name="searchword" id="mod-search-searchword" maxlength="20"  class="inputbox" type="text" size="20" value="Tìm kiếm..."  onblur="if (this.value=='') this.value='Tìm kiếm...';" onfocus="if (this.value=='Tìm kiếm...') this.value='';" /><input type="image" value=" " class="button" src="/" onclick="this.form.searchword.focus();"/>	<input type="hidden" name="task" value="search" />
-                <input type="hidden" name="option" value="com_search" />
-                <input type="hidden" name="Itemid" value="511" />
-                </div>
-            </div>
             
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
+                <div class="col-5">
+                    <input type="text" placeholder="Search" aria-label="Search">
+                    <i class="fa fa-search"></i>
+                  </div>
+              </div>
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img src="http://hanu.vn/images/slideshow1/Hanu_homepage_Banner3.jpg" class="d-block w-100" alt="...">
@@ -44,19 +40,19 @@
                   </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
               </div>
-          </div><nav class="navbar navbar-expand-lg navbar-light bg-light">
+          </div> 
+        </div>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">TRANG CHỦ</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+            
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item active">
@@ -118,7 +114,8 @@
              <li> <a href="#">Cơ hội việc làm</a></li>
              <li><a href="#">Dành cho cựu sinh viên</a></li>
              <li><a href="#">Du học</a></li>
-             <li><a href="http://www.hanu.vn/vn/mnu-chat-luong-giao-duc.html"><img style="width:60%" src="http://www.hanu.vn/images/source/Hanoi3CK.png" alt=""></a> </li>
+             <li><a href="http://www.hanu.vn/vn/mnu-chat-luong-giao-duc.html"><img style="width:60%" src="http://www.hanu.vn/images/source/Hanoi3CK.png" alt=""></a> </li> <br>
+             <li><a href="http://www.hanu.vn/index.php?option=com_content&view=article&id=2904:doi-moi-co-che-hoat-dong-cua-truong-dai-hoc-ha-noi&catid=80:tin-tuc-su-kien&Itemid=607&lang=vn"><img style="width:60%" src="http://www.hanu.vn/images/source/HanuTuchu.png" alt=""></a></li>
         </ul>
         </div>
         <div class="col-sm" style=" padding-top: 15px" >
@@ -135,16 +132,17 @@
           </div>
         </div>
         <br>
-        <div class="card" style="width: 20rem;">
-          <h5 class="card-title">Hợp tác quốc tế</h5>
-          <img src="http://www.hanu.vn/images/articles/2019/190519_Dai%20hoi%20doan%20TN_01.JPG" class="card-img-top" alt="...">
+        <div class="card" >
+          <h5 class="card-title" style="background-color: rgb(29, 247, 76);color: white;">Hợp tác quốc tế</h5>
           <div class="card-body">
-            
-            <p class="card-text">Some quick example</p>
+          <img style="width: 50%" src="http://www.hanu.vn/images/articles/2019/190529_khach%20Nga_01.JPG" class="card-img-top" alt="...">
+          <a href="#" class="card-link"><b>  Trường đại học Hà Nội và  Trường Đại học Tổng hợp Du lịch và Dịch vụ (LB Nga) :Cơ hội lớn trong hợp tác đào tạo nguồn nhân lực cho ngành dịch vụ </b></a>
+          <p>HANU - Ngày 29/5/2019, Hiệu trưởng Nguyễn Văn Trào đã tiếp và làm việc với Phó ...</p>
         </div>
+          <p><b>Bài đã dăng</b></p>
         <div class="card-body">
-          <li><a href="#" class="card-link">Card link</a></li>
-          <li><a href="#" class="card-link">Another link</a></li>
+          <li><a href="#" class="card-link">Bế giảng khóa học ghi chép sổ sách bằng tiếng Nhật </a></li>
+          <li><a href="#" class="card-link">Khai giảng khóa học điều dưỡng sau đại học</a></li>
         </div>
       </div>
     </div>
@@ -154,52 +152,60 @@
         
         <div class="card-body">
           
-          <a href="#" class="card-link"> <b> Sự kiện Women Deliver với chủ đề Power Profress Change - Thay đổi quyền lực</b> </a><p>Sự kiện Women Deliver với chủ đề Power Profress Change-...</p>
-          <p>Bài đã đăng</p>
-          <li><a href="#" class="card-link"> Đại hội Đại biểu </a></li>
-          <li><a href="#" class="card-link"> Đại hội Đại biểu </a></li>
+          <li><a href="#" class="card-link"> Thông báo lịch thi IELTS quốc tế tại Trường đại học Hà Nội </a></li>
+          <li><a href="#" class="card-link"> Lịch thi,danh sách phòng thi NLNN chuẩn đầu ra cho sinh viên </a></li>
+          <li><a href="#" class="card-link">Lịch thi và danh sách thi tốt nghiệp hệ VHVH và sinh viên đài tạo từ xa ngày 26/5/2019</a></li>
+          <li><a href="#" class="card-link">  Thông báo thi NLNN tham chiếu theo khung Châu Âu về ngôn ngữ cho sinh viên hệ chính quy khóa 2015-2019</a></li>
+          <li><a href="#" class="card-link">  Kết quả thi NLNN chuẩn đầu ra tiếng Anh ngày 12/5/2019 </a></li>
           
         </div>
       </div>
         <br>
-        <div class="card" style="width: 20rem;">
-          <h5 class="card-title">Nghiên cứu khoa học</h5>
-          <img src="http://www.hanu.vn/images/articles/2019/190519_Dai%20hoi%20doan%20TN_01.JPG" class="card-img-top" alt="...">
+        <div class="card" >
+          <h5 class="card-title" style="background-color: rgb(255, 38, 67);color: white;">Nghiên cứu khoa học</h5>
           <div class="card-body">
-            
-            <p class="card-text">Some quick example</p>
-        </div>
-        <div class="card-body">
-          <li><a href="#" class="card-link">Card link</a></li>
-          <li><a href="#" class="card-link">Another link</a></li>
+            <a href="#" class="card-link"> <b>Về việc tổ chức hội thảo quốc tế "Đổi mới và sáng tạo trong đào tạo nguồn nhân lực toàn cầu" </b></a> <p>Nhân dịp kỷ niệm 60 năm thành lập (1959-2019), Trường Đại học Hà Nội tổ chức...</p>
+             <p>Bài đã đăng</p>
+          <li><a href="#" class="card-link">Về việc tổ chức hội thảo quốc tế “Đào tạo nguồn nhân lực chất lượng cao tiếng Trung Quốc trong xu thế toàn cầu hóa”</a></li>
+          <li><a href="#" class="card-link">Thông báo số một về việc tổ chức hội thảo quốc tế năm 2019</a></li>
         </div>
       </div>
         </div>
         <div class="col-sm" style=" padding-top: 15px" >
             <div class="card"  >
-              <h5 class="card-title" style="background-color: blue;color: white;">Tin tức</h5>
+              <h5 class="card-title" style="background-color: rgb(148, 7, 7);color: white;">Tuyển sinh</h5>
             
             <div class="card-body">
-                <img style="width: 50%;"  src="http://www.hanu.vn/images/articles/2019/190519_Dai%20hoi%20doan%20TN_01.JPG" class="card-img-top" alt="...">
-              <a href="#" class="card-link"> <b> Sự kiện Women Deliver với chủ đề Power Profress Change - Thay đổi quyền lực</b> </a><p>Sự kiện Women Deliver với chủ đề Power Profress Change-...</p>
-              <p>Bài đã đăng</p>
-              <li><a href="#" class="card-link"> Đại hội Đại biểu </a></li>
-              <li><a href="#" class="card-link"> Đại hội Đại biểu </a></li>
+              
+               <a href="#" class="card-link"> <b>Đồng hành cùng học sinh lớp 12</b></a>
+               <li><a href="#" class="card-link"> Chuỗi sự kiện tư vấn tuyển sinh</a></li>
+               <li><a href="#" class="card-link"> Ôn thi TN THPT môn tiếng Anh </a></li>
+              <a href="#" class="card-link"> <b> Đại Học</b> </a>
+              <li><a href="#" class="card-link"> Chính quy </a></li>
+              <li><a href="#" class="card-link"> Vừa làm vừa học </a></li>
+              <li><a href="#" class="card-link"> Bằng Đại học thứ 2 </a></li>
+              <li><a href="#" class="card-link"> Đào tạo từ xa </a></li>
+              <a href="#" class="card-link"><b>Sau Đại học</b></a> <br>
+              <a href="#" class="card-link"><b>Đào tạo quốc tế chính quy</b></a>
+              <li><a href="#" class="card-link"> Đại học </a></li>
+              <li><a href="#" class="card-link"> Sau đại học </a></li>
+              <a href="#" class="card-link"><b>Đào tạo khóa học ngắn hạn</b></a>
               
             </div>
           </div>
         <br>
         <div class="col-sm">
             <div class="card" style="width: 20rem;">
-                <h5 class="card-title">Hoạt động của tổ chức,đoàn thể</h5>
-                <img src="http://www.hanu.vn/images/articles/2019/190519_Dai%20hoi%20doan%20TN_01.JPG" class="card-img-top" alt="...">
+                <h5 class="card-title" style="background-color: rgb(52, 156, 253);color: white;">Hoạt động của tổ chức,đoàn thể</h5>
                 <div class="card-body">
-                 
-                  <p class="card-text">Some quick example</p>
+                <img style="width: 50%" src="http://www.hanu.vn/images/articles/190326_%20on%20Hi%2001.jpg" class="card-img-top" alt="...">
+                <a href="#" class="card-link"><b>Những bông hoa đẹp của trường Đại học Hà Nội</b></a> <p>Ngày 26/3 Đoàn TNCS Hồ Chí Minh...</p>
               </div>
+              <p>Bài đã đăng</p>
               <div class="card-body">
-                <li><a href="#" class="card-link">Card link</a></li>
-                <li><a href="#" class="card-link">Another link</a></li>
+                <li><a href="#" class="card-link">Chương trình Du xuân hưởng ứng tết trồng cây của trường ĐH Hà Nội</a></li>
+                <li><a href="#" class="card-link">Trường ĐH Hà Nội với "Xuân ấm tình yêu thương"></li>
+                <li><a href="#" class="card-link">Hội nghị ban cán sự lớp năm học 2018-2019 và Tọa đàm</a></li>
               </div>         
         </div>
 

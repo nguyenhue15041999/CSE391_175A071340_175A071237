@@ -1,0 +1,245 @@
+
+.row1{
+    background-repeat: no-repeat;
+    height: 85px;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: initial;
+    
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0);
+    
+    overflow: hidden;
+    width: 101%;
+}
+
+#header img{
+    position: absolute;
+    top: 14px;
+    left: 30%;
+}
+.col-5{
+    position: absolute;
+    top: 14px;
+   left :70%;
+}
+
+
+#mainnavwrap{
+    background-position-x: center;
+    background-position-y: top;
+    background-size: initial;
+    
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0);
+    height: 45px;
+    overflow: hidden;
+    width: 100%;
+    
+}
+ #rs-mainnav{
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+   
+} 
+
+.container{
+    width: 850px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 155px;
+    padding-top: -2px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+.menu{
+    text-decoration: none;  /*dùng để bỏ phần gạch chân trong thẻ a*/
+	color: white;
+
+	font-size: 13px;
+    margin-top : 0px;
+    width: 120%;
+   
+}
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+li{
+    text-align: -webkit-match-parent;
+}
+
+ #containerwrap{
+    height: 800px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: initial;
+   
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    margin-top: 0px;
+    width: 100%;
+} 
+#rs-container {
+    height: 1700px;
+    margin: 0 auto;
+    padding: 0;
+    width: 900px;
+    text-align: left;
+
+}
+#rs-col1 {
+    height: 600px;
+    width: 220px;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+#rs-col1 h3.title {
+    color: #000;
+    font-weight: bold;
+  margin-bottom: 10px;
+    font-size: 100%;
+    padding: 18px 22px 0 0;
+    text-align: left;  
+}
+h3 {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-block-start: 0.5em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+} 
+#rs-col1 ul.menu{
+   color: black;
+   list-style: none;
+   padding: 3px 22px 0 0;
+   
+}
+#rs-col1 li{
+    height: 30px;
+}
+#rs-col1 img{
+    width: 193px;
+    height: 115px;
+}
+#rs-rightside {
+    width: 680px;
+    float: right;
+}
+.rs-top1{
+    clear: both;
+    margin: 10px 0 4px;
+    overflow: hidden;
+    padding: 0;
+}
+.rs-content-inner{
+    margin: 0;
+    padding: 0 10px 0 0;
+    width: auto
+}
+#rs-content {
+    margin: 5px 0 20px 0;
+}
+#rs-content-inner {
+    margin: 0;
+    padding: 10px 10px 0 0;
+    width: auto;
+}
+.item_page em {
+    font-family: sans-serif;
+    width: 400px;
+    float:right;
+    font-size:12.5px;
+    height: 60px;
+}
+.item_page{
+    height: 200px;
+}
+ 
+.cnp{
+    font-family: sans-serif;
+    font-size:12.5px;
+   
+}
+em{
+    font-family: sans-serif;
+    font-size:12.5px;
+    height: 30px;
+}
+/* #ct-footer {
+    margin-top:17500px; 
+    height: 100px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: relative;
+    text-align: right;
+    width: 100%;
+} */
+footer{
+    margin-top: 850px;
+    height: 100px;
+}
+#ct-footer{
+    background-repeat: no-repeat;
+    height: 100px;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: initial;
+    
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0);
+    
+    overflow: hidden;
+    width: 101%;
+}
+#footer-content {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1000px;
+    height: 250px;
+    padding-left: 25px;
+}
+#footer-left {
+    vertical-align: top;
+    width: 53px;
+    float: left;
+    margin-top: 20px;
+}
+#footerbetween {
+    float: left;
+    width: 500px;
+    vertical-align: top;
+    margin-top: 15px;
+    line-height: 100%;
+}
+.modcnt{
+    color: white;
+    font-size: 10.5px;
+    margin-top: 10px;
+    overflow: hidden;
+    padding-bottom: 18px;
+    padding-left: 10px;
+    height: 80px;
+}

@@ -1,41 +1,360 @@
-#header {
-    background-color: brown;
-    width: 80%;
-    text-align: center;
-}
-nav{
-    background-color: brown;
-}
-html{  
-    height:100%;
-    font-size:11px;
-    }
-ul{
-    list-style-type:none;
-}
-
-.card{
-    width: 20 rem;
-    background-color: rgb(240, 240, 238);
-    color: black;
-      }
-.card-link{
-    color: black;
-}
-
-footer{
-    background-color: brown;
-    color: aliceblue;
+#headerwrap {
+  
+    background-position-x: center;
+    background-position-y: top;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    height: 260px;
+    margin: 0 auto;
+    overflow: hidden;
     width: 100%;
 }
+#header {
+    width: 872px;
+    min-width: 800px;
+    height: 260px;
+    margin: 0px auto;
+    margin-top: 15px;
+    position: relative;
+}
+#carouselExampleIndicators {
+    float: left;
+    margin-left: -38px;
+    margin-top: 10px;
+    width: 948px;
+}
+#navbarwrap{
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: initial;
+    background-attachment: scroll;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0);
+    height: 70px;
+}
+#mainnavbar {
+    margin: 0 auto;
+    width: 920px;
+    height: 50px;
+   
+}
+#mainnav-inner {
+    padding: 0 10px 0 0;
+    height: 40px;
+}
+.splitmenu {
+    margin: 0;
+    padding: 0;
+}
+.splitmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+   
+}
+.splitmenu li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-size: 12px !important;
+    line-height: 40px;
+    padding: 12px;
+   
+}
+#splitmenu a {
+    color: black;
+    float: left;
+    height: 50px;
+    margin: 0 1px 0 0;
+    padding: 7px 10px;
+    border-bottom: none;
+    display: block;
+    font-size: 12px !important;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a{
+    color: black;
+}
+ h3{
+    color: #000;
+    font-weight: bold;
+    font-size: 120%;
+    text-align: left;
+    height: 30px;
+}
+#containerwrap {
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: initial;
+    background-attachment: scroll;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0);
+    float: left;
+    margin-top: -12px;
+    width: 100%;
+    height: 800px;
+}
+#ct-container {
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    width: 920px;
+   
+}
+#ct-col1 {
+    float: left;
+    width: 200px;
+    overflow: hidden;
+    text-align: right;
+    margin: 20px 0 0 10px;
+    height: 900px;
+}
+#ct-col1-inner{
+    height: 800px;
+}
+.custom p{
+    margin-left: -20px;
+}
+.spm{
+    height: 250px;
+}
+.spm1{
+   height: 160px;
+}
+.spm2 img{
+    height: 108px;
+    width: 193px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
 
-  body {
-      color: black;
-    width:100%;
-    padding:0;
-    margin:0;
-    background:url("../images/.png") repeat-x scroll 0 0 white;
-    color: #333333;
-    font-family: Arial, Tahoma, Helvetica, sans-serif;
-    line-height: 1.5;
-    }
+} 
+
+.modelcnt {
+    text-align: left;
+    margin-left: -40px;
+    height: 100px;
+}
+
+#ct-col1 ul.menu{
+    list-style: none;
+    margin: 0;
+    width: 212px;
+    overflow: hidden;
+}
+.modelcnt li{
+   height: 30px;
+}
+#ct-rightside {
+    float: right;
+    width: 700px;
+    margin-top: -10px;
+    margin-right: 170px;
+    height: 800px;
+}
+#ct-firstbody {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 15px;
+    line-height: 30px;
+}
+#ct-body {
+    float: left;
+    margin: 10px 0;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    width: 720px;
+    height: 700px;
+}
+/* Tin tức */
+#ct-body1  {
+    float: left;
+    width: 220px;
+    height: 350px;
+    line-height: 18px;
+}
+#ct-body1 .bd-title {
+    background-color: #337abf;
+    height: 30px;
+    padding: 7px 10px 3px 5px;
+    width: 210px;
+
+}
+.bd-cnt{
+    background-color: #eeeeec;
+    float: left;
+    height: 300px;
+    line-height: 18px;
+    padding: 0px 10px 0 5px;
+    text-decoration: none;
+    width: 210px;
+    overflow: hidden;
+}
+ul.mod {
+    margin-top: -10px;
+    margin-left: -33px;
+    overflow: hidden;
+}
+ul.mod li{
+    padding-top: 17px;
+   
+}
+.modtl img{
+    float: left!important;
+    width: 95px!important;
+    height: auto;
+    margin: 0px 5px 0px 0!important;
+}
+h4 a{
+    margin: 0 0 5px;
+    padding: 0;
+    text-align: justify;
+    display: block;
+    font-weight: bold;
+    font-size: 11.3px;
+}
+.mdcl ul li{
+    padding-bottom: 0 !important;
+    padding-left: -10px;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+    text-align: justify !important;
+}
+/* Thông báo */
+#ct-body2 {
+    float: left;
+    width: 220px;
+    height: 350px;
+    line-height: 18px;
+}
+#ct-body2 .bd-title{
+    background-color: #f87721;
+    height: 30px;
+    padding: 7px 10px 3px 5px;
+    width: 210px;
+}
+ul.thongbao{
+    margin-left: -20px;
+}
+/* Tuyển sinh */
+#ct-body3{
+    float: left;
+    width: 220px;
+    height: 350px;
+    line-height: 18px;
+}
+#ct-body3 .bd-title{
+    background-color: #910904;
+    height: 30px;
+    padding: 7px 10px 3px 5px;
+    width: 210px;
+}
+ul.tuyensinh {
+    margin-left: -20px;
+}
+.tuyensinh b{
+    color: #96200c;
+}
+/* Hợp tác quốc tế */
+#ct-body11 {
+    float: left;
+    width: 220px;
+    height: 350px;
+    line-height: 18px;
+}
+#ct-body11 .bd-title{
+    background-color: #18f548;
+    height: 30px;
+    padding: 7px 10px 3px 5px;
+    width: 210px;
+}
+/* Nghiên cứu khoa học */
+#ct-body21 {
+    float: left;
+    width: 220px;
+    height: 350px;
+    line-height: 18px;
+}
+#ct-body21 .bd-title{
+    background-color: #fc45ce;
+    height: 30px;
+    padding: 7px 10px 3px 5px;
+    width: 210px;
+}
+/* Hoạt động đoàn */
+#ct-body31 {
+    float: left;
+    width: 220px;
+    height: 350px;
+    line-height: 18px;
+}
+#ct-body31 .bd-title{
+    background-color: #55c0fd;
+    height: 30px;
+    padding: 7px 10px 3px 5px;
+    width: 210px;
+    font-size: 10.3px;
+}
+html{
+    font-size: 11px
+}
+/* footer */
+footer{
+    margin-top: 850px;
+    height: 100px;
+}
+#ct-footer{
+    background-repeat: no-repeat;
+    height: 100px;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: initial;
+    
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0);
+    
+    overflow: hidden;
+    width: 101%;
+}
+#footer-content {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1000px;
+    height: 250px;
+    padding-left: 25px;
+}
+#footer-left {
+    vertical-align: top;
+    width: 53px;
+    float: left;
+    margin-top: 20px;
+}
+#footerbetween {
+    float: left;
+    width: 500px;
+    vertical-align: top;
+    margin-top: 15px;
+    line-height: 100%;
+}
+.modcnt{
+    color: white;
+    font-size: 11px;
+    margin-top: 10px;
+    overflow: hidden;
+    padding-bottom: 18px;
+    padding-left: 10px;
+    height: 80px;
+}

@@ -1,0 +1,262 @@
+.row1{
+    background-repeat: no-repeat;
+    height: 85px;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: initial;
+    
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0);
+    
+    overflow: hidden;
+    width: 101%;
+}
+
+#header img{
+    position: absolute;
+    top: 14px;
+    left: 30%;
+}
+.col-5{
+    position: absolute;
+    top: 14px;
+   left :70%;
+}
+#navbarwrap{
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: initial;
+    background-attachment: scroll;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0);
+    height: 70px;
+}
+#mainnavbar {
+    margin: 0 auto;
+    width: 920px;
+    height: 50px;
+   
+}
+#mainnav-inner {
+    padding: 0 0px 0 0;
+    height: 40px;
+}
+.splitmenu {
+    margin: 0;
+    padding: 0;
+}
+.splitmenu ul {
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+   
+}
+.splitmenu li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-size: 12px !important;
+    line-height: 40px;
+    padding: 12px;
+   
+}
+#splitmenu a {
+    color: black;
+    float: left;
+    height: 50px;
+    margin: 0 1px 0 0;
+    padding: 7px 10px;
+    border-bottom: none;
+    display: block;
+    font-size: 12px !important;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#navbarwrap a{
+    color: black;
+}
+#containerwrap{
+    height: 800px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: initial;
+   
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    margin-top: -25px;
+    width: 100%;
+} 
+#rs-container {
+    margin: 0 auto;
+    padding: 0;
+    width: 900px;
+    text-align: left;
+
+}
+#rs-col1 {
+    height: 600px;
+    width: 220px;
+    float: left;
+    margin-top: 10px;
+    padding: 0;
+}
+#rs-col1 img{
+    width: 193px;
+    height: 115px;
+}
+#rs-rightside {
+    width: 680px;
+    float: right;
+    margin-top: 0px;
+ }
+#model-content{
+    margin: 5px 0 20px 0;
+    width: 680px;
+
+    
+}
+ul.model{
+    padding: 0px;
+    list-style: none;
+}
+
+#model-content .sb-title a {
+    color: #fff;
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 120%;
+    text-decoration: none;
+}
+.sb-content{
+    font-size: 13px;
+    margin-left: 10px;
+    margin-right: 3px;
+}
+#model-content a{
+  text-decoration: none;
+  color: black;
+}
+
+h1{
+    font-size: 140%;
+    font-weight: bold;
+}
+h3{
+    font-size: 120%;
+    font-weight: bold;
+}
+html{
+    font-size: 13px;
+    font-family: sans-serif;
+}
+p.more {
+    text-align: right;
+    font-family: sans-serif;
+  
+}
+
+
+.pagination {
+    width: 100%;
+    float: left;
+}
+.pagination {
+    text-shadow: 0 1px 1px #FFF, 0 1px 0 #aaa;
+}
+table.contentpaneopen {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.pagenav {
+    padding: 1px 5px;
+    border: 1px solid #DDD;
+}
+a.pagenav {
+    text-decoration: none;
+}
+.counter {
+    text-align: center;
+}
+.back-button {
+    text-shadow: 0 1px 1px #FFF, 0 1px 0 #aaa;
+}
+.back_button  {
+    float: right;
+    margin: 10px 0;
+    display: block;
+    padding-left: 20px;
+    font-weight: bold;
+   
+    text-decoration: none;
+    background: url(http://www.hanu.vn//templates/hanu/images/back-button.gif) no-repeat left top;
+}
+/* footer */
+footer{
+  
+    height: 100px;
+}
+#ct-footer{
+    background-repeat: no-repeat;
+    height: 100px;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: initial;
+    
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0);
+    
+    overflow: hidden;
+    width: 101%;
+}
+#footer-content {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1000px;
+    height: 250px;
+    padding-left: 25px;
+}
+#footer-left {
+    vertical-align: top;
+    width: 53px;
+    float: left;
+    margin-top: 20px;
+}
+#footerbetween {
+    float: left;
+    width: 500px;
+    vertical-align: top;
+    margin-top: 15px;
+    line-height: 100%;
+}
+.modcnt{
+    color: white;
+    font-size: 12px;
+   
+    overflow: hidden;
+    padding-bottom: 18px;
+    padding-left: 10px;
+    height: 80px;
+}
+
+

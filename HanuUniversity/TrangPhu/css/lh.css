@@ -1,0 +1,248 @@
+.row1{
+    background-repeat: no-repeat;
+    height: 85px;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: initial;
+    
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0);
+    
+    overflow: hidden;
+    width: 101%;
+}
+
+#header img{
+    position: absolute;
+    top: 14px;
+    left: 30%;
+}
+.col-5{
+    position: absolute;
+    top: 14px;
+   left :70%;
+}
+#navbarwrap{
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: initial;
+    background-attachment: scroll;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0);
+    height: 70px;
+}
+#mainnavbar {
+    margin: 0 auto;
+    width: 920px;
+    height: 50px;
+   
+}
+#mainnav-inner {
+    padding: 0 0px 0 0;
+    height: 40px;
+}
+.splitmenu {
+    margin: 0;
+    padding: 0;
+}
+.splitmenu ul {
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+   
+}
+.splitmenu li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-size: 12px !important;
+    line-height: 40px;
+    padding: 12px;
+   
+}
+#splitmenu a {
+    color: black;
+    float: left;
+    height: 50px;
+    margin: 0 1px 0 0;
+    padding: 7px 10px;
+    border-bottom: none;
+    display: block;
+    font-size: 12px !important;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#navbarwrap a{
+    color: black;
+}
+#containerwrap{
+    height: 800px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: initial;
+   
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    margin-top: -25px;
+    width: 100%;
+} 
+#rs-container {
+    margin: 0 auto;
+    padding: 0;
+    width: 900px;
+    text-align: left;
+
+}
+#rs-col1 {
+    height: 600px;
+    width: 220px;
+    float: left;
+    margin-top: 10px;
+    padding: 0;
+}
+#rs-col1 img{
+    width: 193px;
+    height: 115px;
+}
+#rs-rightside {
+    width: 680px;
+    float: right;
+    margin-top: -3px;
+ }
+#model-content{
+    margin: 5px 0 20px 0;
+    width: 680px;
+
+    
+}
+ul.model{
+    padding: 0px;
+    list-style: none;
+}
+.sb-content{
+    font-size: 13px;
+    margin-left: 10px;
+    margin-right: 3px;
+}
+#model-content a{
+  text-decoration: none;
+  color: black;
+}
+h1{
+    font-size: 140%;
+    font-weight: bold;
+}
+.ctln {
+    border-bottom: 1px dashed #888888;
+    margin: 0 0 3px;
+    overflow: hidden;
+    padding: 0 0 3px;
+    position: relative;
+    width: 100%;
+}
+.lctdtl {
+    
+    float: left;
+    width: 20px;
+    padding: 0;
+}
+#rs-content-innerpad .lctdtl img {
+    padding: 2px!important;
+    border: none!important;
+    background: none!important;
+    box-shadow: none!important;
+}
+.rctdtl {
+    float: left;
+    font-size: 12px;
+    padding: 2px 0 0 6px;
+    text-shadow: 0 1px 1px #AAAAAA;
+}
+#rs-content-innerpad .lctdtl img {
+    padding: 2px!important;
+    border: none!important;
+    background: none!important;
+    box-shadow: none!important;
+}
+.ctlnr {
+    float: left;
+    margin: 0 0 0 102px;
+}
+/* tao dang nhap */
+.lndtfrm{
+    width: 100%;
+    float: left;
+    margin: 0 0 4px 0;
+}
+.lndtfrm .lftlbl {
+    width: 16%;
+    float: left;
+    text-align: right;
+    color: #555;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 0 10px 0 0;
+}
+.lndtfrm .rgtipt {
+    width: 78%;
+    float: left;
+}
+input {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+textarea {
+    -webkit-appearance: textarea;
+  height: 100px;
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    border-width: 1px;
+    border-style: solid;
+    border-image: initial;
+    padding: 2px;
+}
+#imgcpt {
+    color: #777777;
+    float: left;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    height: 24px;
+    letter-spacing: 5px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: line-through;
+    text-shadow: 3px 1px 2px #999999;
+    width: 100px;
+}
+legend {
+    display: block;
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    font-size: 13px;
+}

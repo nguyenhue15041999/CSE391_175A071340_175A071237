@@ -80,7 +80,7 @@
     color: black;
 }
 #containerwrap{
-    
+    height: 800px;
     background-repeat: no-repeat;
     text-align: center;
     background-position-x: center;
@@ -247,7 +247,7 @@ legend {
     font-size: 13px;
 }
 footer{
-    margin-top: 850px;
+  
     height: 100px;
 }
 #ct-footer{
@@ -288,7 +288,7 @@ footer{
 .modcnt{
     color: white;
     font-size: 12px;
-    margin-top: 10px;
+   
     overflow: hidden;
     padding-bottom: 18px;
     padding-left: 10px;

@@ -1,0 +1,333 @@
+
+#model-content{
+    margin: 5px 0 20px 0;
+    width: 680px;
+    
+}
+ul.model{
+    padding: 0px;
+    list-style: none;
+}
+/* Thông tin khoa học */
+.sb-content{
+    background-color: #eeeeec;
+}
+.sb-title {
+    background-color: #bd4450;
+    padding: 7px 8px 3px;
+    width: 100%;
+}
+#model-content .sb-title a {
+    color: #fff;
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 120%;
+    text-decoration: none;
+}
+.row1{
+    background-repeat: no-repeat;
+    height: 85px;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: initial;
+    
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0);
+    
+    overflow: hidden;
+    width: 101%;
+}
+
+#header img{
+    position: absolute;
+    top: 14px;
+    left: 30%;
+}
+.col-5{
+    position: absolute;
+    top: 14px;
+   left :70%;
+}
+#navbarwrap{
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: initial;
+    background-attachment: scroll;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0);
+    height: 70px;
+}
+#mainnavbar {
+    margin: 0 auto;
+    width: 920px;
+    height: 50px;
+   
+}
+#mainnav-inner {
+    padding: 0 0px 0 0;
+    height: 40px;
+}
+.splitmenu {
+    margin: 0;
+    padding: 0;
+}
+.splitmenu ul {
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+   
+}
+.splitmenu li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-size: 12px !important;
+    line-height: 40px;
+    padding: 12px;
+   
+}
+#splitmenu a {
+    color: black;
+    float: left;
+    height: 50px;
+    margin: 0 1px 0 0;
+    padding: 7px 10px;
+    border-bottom: none;
+    display: block;
+    font-size: 12px !important;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#navbarwrap a{
+    color: black;
+}
+#containerwrap{
+    height: 800px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: initial;
+   
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    margin-top: -25px;
+    width: 100%;
+} 
+#rs-container {
+    margin: 0 auto;
+    padding: 0;
+    width: 900px;
+    text-align: left;
+
+}
+#rs-col1 {
+    
+    width: 220px;
+    float: left;
+    margin-top: 10px;
+    padding: 0;
+}
+#rs-col1 img{
+    width: 193px;
+    height: 115px;
+}
+
+#model-content{
+    margin: 5px 0 20px 0;
+    width: 680px;
+}
+#rs-topsl {
+    clear: both;
+    margin: 0 0 4px;
+    overflow: hidden;
+    padding: 0;
+}
+#rs-contentwrap {
+    margin: 5px 0 20px 0;
+}
+#rs-rightside {
+    width:400px;
+    float:right;
+    min-height: 500px;
+     margin-top: -270px;
+     margin-right: -410px;
+     }
+}
+#rs-contentwrap {
+    margin: 5px 0 20px 0;
+}
+#rs-content {
+    width: 700px;
+    float: left;
+}
+#rs-content-innerpad {
+    margin: 0;
+    padding: 0 10px 0 0;
+    width: auto;
+}
+
+
+
+#rs-content-innerpad .item-page h2 {
+    color: #333;
+    
+    font-weight: 100;
+    line-height: 120%;
+    margin: 0 0 8px;
+    text-decoration: none;
+    
+}
+
+}
+ul li {
+    padding-left: 35px;
+    line-height: 160%;
+    list-style: none;
+}
+
+.pagination {
+    width: 100%;
+    float: left;
+}
+
+
+
+
+.pagenav {
+    padding: 1px 5px;
+    border: 1px solid #DDD;
+}
+
+}
+#counterx {
+    text-align: center;
+}
+strong, b {
+    font-weight: bold;
+}
+#counterx {
+    text-align: center;
+}
+footer{
+    margin-top: 850px;
+    height: 100px;
+}
+#ct-footer{
+    background-repeat: no-repeat;
+    height: 100px;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: initial;
+    
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0);
+    
+    overflow: hidden;
+    width: 101%;
+}
+#footer-content {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1000px;
+    height: 250px;
+    padding-left: 25px;
+}
+#footer-left {
+    vertical-align: top;
+    width: 53px;
+    float: left;
+    margin-top: 20px;
+}
+#footerbetween {
+    float: left;
+    width: 500px;
+    vertical-align: top;
+    margin-top: 15px;
+    line-height: 100%;
+}
+.modcnt{
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+    overflow: hidden;
+    padding-bottom: 18px;
+    padding-left: 10px;
+    height: 80px;
+}
+#rs-content {
+    width: 700px;
+    float: left;
+}
+.qawns p {
+    margin: 0;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 12px;
+}
+h2.qsttlt {
+    display: block;
+    font-size: 15px;
+    background: url("http://www.hanu.vn//templates/hanu/images/question_icon.gif ") no-repeat scroll 0 -4px rgba(0, 0, 0, 0);
+    
+    font-weight: bold;
+    color: #2e2e2e;
+    float: left;
+    
+    margin: 0;
+    padding: 0 0 0 25px;
+    text-align: justify;
+}
+.item-separatorqsas {
+    width: 100%;
+    float: left;
+    border-top: 1px dotted #036276;
+    margin: 15px 0;
+}
+.back-button {
+    text-shadow: 0 1px 1px #FFF, 0 1px 0 #aaa;
+}
+.back_button  {
+    float: right;
+    margin: 10px 0;
+    display: block;
+    padding-left: 20px;
+    font-weight: bold;
+   
+    text-decoration: none;
+    background: url(http://www.hanu.vn//templates/hanu/images/back-button.gif) no-repeat left top;
+}
+
+    
+h1.qsttlt {
+    background: url('http://www.hanu.vn//templates/hanu/images/question_icon.gif') no-repeat scroll 0 -4px rgba(0, 0, 0, 0);
+    color: #2e2e2e;
+    float: left;
+    font-size: 15px;
+    margin: 0;
+    padding: 0 0 0 25px;
+    
+}
+.qawns {
+    float: left;
+    color: #444;
+    margin: 10px 0 0 0;
+    text-align: justify;
+    padding: 0 0 0 25px;
+    background: url("http://www.hanu.vn//templates/hanu/images/answer_icon.gif") no-repeat scroll 0 -2px;
+}
+
+

@@ -54,8 +54,7 @@
 .splitmenu ul {
     margin: 0;
     padding: 0;
-    list-style: none;
-   
+    text-decoration: none;
 }
 .splitmenu li {
     margin: 0;
@@ -69,6 +68,7 @@
 #splitmenu a {
     color: black;
     float: left;
+    list-style: none;
     height: 50px;
     margin: 0 1px 0 0;
     padding: 7px 10px;
@@ -347,7 +347,7 @@ footer{
     width: 500px;
     vertical-align: top;
     margin-top: 15px;
-    line-height: 100%;
+    line-height: 130%;
 }
 .modcnt{
     color: white;

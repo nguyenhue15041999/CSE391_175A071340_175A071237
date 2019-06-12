@@ -27,30 +27,61 @@
 }
 
 
-#mainnavwrap{
-    background-image: url('http://www.hanu.vn//templates/hanu/images/Menu_BG_2.png');
+#navbarwrap{
+    background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: top;
     background-size: initial;
-    background-repeat: no-repeat;
-    background-attachment: initial;
+    background-attachment: scroll;
     background-origin: initial;
     background-clip: initial;
     background-color: rgba(0, 0, 0, 0);
-    height: 45px;
-    overflow: hidden;
-    width: 100%;
-    position: relative;
-
-    
+    height: 70px;
 }
- #rs-mainnav{
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
+#mainnavbar {
+    margin: 0 auto;
+    width: 920px;
+    height: 50px;
    
-} 
+}
+#mainnav-inner {
+    padding: 0 10px 0 0;
+    height: 40px;
+}
+.splitmenu {
+    margin: 0;
+    padding: 0;
+}
+.splitmenu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+   
+}
+.splitmenu li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-size: 12px !important;
+    line-height: 40px;
+    padding: 12px;
+   
+}
+#splitmenu a {
+    color: black;
+    float: left;
+    height: 50px;
+    margin: 0 1px 0 0;
+    padding: 7px 10px;
+    border-bottom: none;
+    display: block;
+    font-size: 12px !important;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a{
+    color: black;
+}
 
 .container{
     width: 850px;
@@ -88,7 +119,6 @@ li{
 
  #rs-containerwrap{
     background-image: url('http://www.hanu.vn//templates/hanu/images/mid_bg_2.png');
-    height: 800px;
     background-repeat: no-repeat;
     text-align: center;
     background-position-x: center ;
@@ -99,11 +129,11 @@ li{
     background-origin: initial;
     background-clip: initial;
     background-color: initial;
-    margin-top: 0px;
+    margin-top: -25px;
     width: 100%;
 } 
 #rs-container {
-    height: 1500px;
+ 
     margin: 0 auto;
     padding: 0;
     width: 900px;
@@ -170,27 +200,68 @@ h3 {
     padding: 10px 10px 0 0;
     width: auto;
 }
-.subcat_title{
+.subcat_title {
     background-color: brown;
     width: 80%;
+}
+.subcat_title a{
     color: white;
-
+    margin-left: 10px;
+    text-decoration: none;
+}
+html{
+    font-size: 13.5px;
 }
 
-
-
-
 #tsct{
-    margin-top: -1000px;
-    margin-left: 200px;
-    float:left;
+    margin: 5px 0 20px 0;
 
 }
 footer{
-    text-align: left;
-    
+    margin-top: 6%;
+    height: 100px;
 }
-.logo{
-    margin-top: 1000px;
-    text-align: right;
+#ct-footer{
+    background-repeat: no-repeat;
+    height: 100px;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: initial;
+    
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0);
+    
+    overflow: hidden;
+    width: 101%;
+}
+#footer-content {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1000px;
+    height: 250px;
+    padding-left: 25px;
+}
+#footer-left {
+    vertical-align: top;
+    width: 53px;
+    float: left;
+    margin-top: 20px;
+}
+#footerbetween {
+    float: left;
+    width: 500px;
+    vertical-align: top;
+    margin-top: 15px;
+    line-height: 100%;
+}
+#footerbetween .modcnt{
+    color: white;
+    font-size: 10.5px;
+    margin-top: 10px;
+    overflow: hidden;
+    padding-bottom: 18px;
+    padding-left: 10px;
+    height: 80px;
 }

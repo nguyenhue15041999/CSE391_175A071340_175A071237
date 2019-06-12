@@ -8,7 +8,7 @@ ul.model{
     padding: 0px;
     list-style: none;
 }
-/* Thông tin khoa học */
+
 .sb-content{
     background-color: #eeeeec;
 }
@@ -149,19 +149,16 @@ ul.model{
     overflow: hidden;
     padding: 0;
 }
-#rs-contentwrap {
-    margin: 5px 0 20px 0;
-}
 #rs-rightside {
-    width:400px;
-    float:right;
-    min-height: 500px;
-     margin-top: -270px;
-     margin-right: -410px;
-     }
+    margin-top: -30%;
+    width: 700px;
+    float: right;
 }
-#rs-contentwrap {
-    margin: 5px 0 20px 0;
+#rs-containerwrap {
+    text-align: center;
+    background : no-repeat center top;
+    margin-top: 0px;
+    width: 100%;
 }
 #rs-content {
     width: 700px;
@@ -184,28 +181,39 @@ ul.model{
     text-decoration: none;
     
 }
-
+.items-leading {
+    width: 100%;
+    overflow: hidden;
+    float: left;
 }
-ul li {
-    padding-left: 35px;
-    line-height: 160%;
-    list-style: none;
+.items-more {
+    margin: 15px 0;}
+
+.items-more a{
+     font-size: 13px;
 }
 
 .pagination {
     width: 100%;
     float: left;
 }
-
-
-
+html{
+    font-size: 13px;
+}
+h3{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: justify;
+    text-decoration: none;
+    margin: 0 0 10px 0!important;
+}
 
 .pagenav {
     padding: 1px 5px;
     border: 1px solid #DDD;
 }
 
-}
+
 #counterx {
     text-align: center;
 }
@@ -215,54 +223,12 @@ strong, b {
 #counterx {
     text-align: center;
 }
-footer{
-    margin-top: 850px;
-    height: 100px;
+.back_button {
+    text-shadow: 0 1px 1px #FFF, 0 1px 0 #aaa;
 }
-#ct-footer{
-    background-repeat: no-repeat;
-    height: 100px;
-    background-position-x: center;
-    background-position-y: top;
-    background-size: initial;
-    
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: rgba(0, 0, 0, 0);
-    
-    overflow: hidden;
-    width: 101%;
-}
-#footer-content {
-    margin: 0 auto;
-    overflow: hidden;
-    width: 1000px;
-    height: 250px;
-    padding-left: 25px;
-}
-#footer-left {
-    vertical-align: top;
-    width: 53px;
-    float: left;
-    margin-top: 20px;
-}
-#footerbetween {
-    float: left;
-    width: 500px;
-    vertical-align: top;
-    margin-top: 15px;
-    line-height: 100%;
-}
-.modcnt{
-    color: white;
-    font-size: 12px;
-    margin-top: 10px;
-    overflow: hidden;
-    padding-bottom: 18px;
-    padding-left: 10px;
-    height: 80px;
-}
+
+
+
 #rs-content {
     width: 700px;
     float: left;
@@ -328,6 +294,54 @@ h1.qsttlt {
     text-align: justify;
     padding: 0 0 0 25px;
     background: url("http://www.hanu.vn//templates/hanu/images/answer_icon.gif") no-repeat scroll 0 -2px;
+}
+footer{
+    
+    height: 100px;
+}
+#ct-footer{
+    background-repeat: no-repeat;
+    height: 100px;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: initial;
+    
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(0, 0, 0, 0);
+    
+    overflow: hidden;
+    width: 101%;
+}
+#footer-content {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1000px;
+    height: 250px;
+    padding-left: 25px;
+}
+#footer-left {
+    vertical-align: top;
+    width: 53px;
+    float: left;
+    margin-top: 20px;
+}
+#footerbetween {
+    float: left;
+    width: 500px;
+    vertical-align: top;
+    margin-top: 15px;
+    line-height: 100%;
+}
+.modcnt{
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+    overflow: hidden;
+    padding-bottom: 18px;
+    padding-left: 10px;
+    height: 80px;
 }
 
 

@@ -169,20 +169,20 @@ h1{
 }
 .footer {
     background-color: #c55501;
-    margin-top: 2px;
+    margin-top: 0px;
     font-size: 13px;
     height: 100px;
-    width: 1000px;
-    margin-left: 235px;
-    margin-right: 245px;
+   width: 71%;
+    margin-left: 135px;
 }
 .text_footer {
     font-size: 13px;
     color: #FFF;
     padding-top: 10px;
-    margin-left: 100px;
+    margin-left: 200px;
 }
 .logo_footer {
+    margin-left: 100px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 6px;
@@ -194,6 +194,7 @@ body{
     background-color:black;
 }
 .noidungchinh{
+    margin-top: -20px;
     margin-left: 235px;
     margin-right: 235px;
     background-color: white;

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login-Admin</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/login.js"></script>
+</head>
+<body>
+    <div class="header" >
+		<h2>Trang Quản Trị - Đại Học Hà Nội</h2>
+	</div>
+	<form method="post" action="login.html">
+	<div id="hidden" class="notification">
+		  Tài khoản hoặc mật khẩu chưa chính xác
+	</div>	
+		<div class="input-group">
+			<label>Username</label>
+			<input type="text" id="name" name="username">
+		</div>		
+		<div class="input-group">
+			<label>Password</label>
+			<input type="Password" id="pass" name="password">
+		</div>		
+		<div class="input-group">			
+			<button type="button" name="login" id="login" class="btn">login</button>
+		</div>
+		
+	</form>
+</body>
+</html>

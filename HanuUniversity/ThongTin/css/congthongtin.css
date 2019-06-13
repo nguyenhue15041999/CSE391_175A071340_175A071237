@@ -1,0 +1,200 @@
+.banner {
+    height: 155px;
+    background-repeat: no-repeat;
+}
+div{
+    display: block;
+}
+#main {
+    width: 990px;
+    height: auto;
+    margin: auto;
+    background-color: #FFFFFF;
+    text-align: left;
+    padding: 0;
+    
+}
+.line_footer {
+    background-color: #77092C;
+    font-size: 11px;
+    height: 27px;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+.text_line_footer {
+    margin-top: -30px;
+    font-size: 12.5px;
+    padding-left: 1px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.text_line_footer a {
+    padding-top: 4px;
+    padding-left: 7px;
+    text-decoration: none;
+    color:rgb(231, 211, 211);
+}
+.float_left{
+    float: left;
+    background-color: #FFE6D9;
+}
+.main_trangcon {
+    width: 200px;
+    background-color: #FFE6D9;
+    font-size: 11px;
+    font-weight: bold;
+}
+.tieude {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.padding3 {
+    padding-left: 10px;
+    padding-bottom: 4px;
+}
+.bullet1 {
+    padding-right: 4px;
+    background-image: url(http://daotao.hanu.vn/themes/img/bullet.png);
+    background-repeat: no-repeat;
+    width: 6px;
+    height: 16px;
+    float: left;
+    background-position: center center;
+}
+.icon {
+    width: 30px;
+    height: 16px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    padding-bottom: 3px;
+}
+.end_float {
+    clear: both;
+}
+.padding3 {
+    padding-left: 10px;
+    padding-bottom: 4px;
+}
+.b1 {
+    padding-right: 4px;
+    background-image: url(http://daotao.hanu.vn/themes/img/bullet.png);
+    background-repeat: no-repeat;
+    width: 6px;
+    height: 16px;
+    float: left;
+    background-position: center center;
+}
+.text_menu_color {
+    color: #000;
+    float: left;
+    padding-left: 2px;
+}
+.text_menu_color a {
+    color: #000;
+    text-decoration: none;
+    float: left;
+}
+center {
+    display: block;
+    text-align: -webkit-center;
+}
+.khoangtrong {
+    padding-top: 5px;
+}
+.righgt {
+    margin-top: 10px;
+    float: right;
+    width: 780px;
+    padding-right: 10px;
+    font-family: Arial, "Times New Roman";
+}
+ 
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+center {
+    display: block;
+    text-align: -webkit-center;
+}
+
+
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+.container{
+    margin-top: 30px;
+    margin-left: 300px;
+    
+}
+h1{
+    margin-right: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+}
+#note{
+    margin-left: 300px;
+    color: blue;
+
+}
+.lienhe{
+    margin-top: -800px;
+    
+}
+.footer {
+    background-color: #c55501;
+    margin-top: 2px;
+    font-size: 13px;
+    height: 100px;
+    width: 1000px;
+    margin-left: 235px;
+    margin-right: 245px;
+}
+.text_footer {
+    font-size: 13px;
+    color: #FFF;
+    padding-top: 10px;
+    margin-left: 100px;
+}
+.logo_footer {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+    float: left;
+    width: 72px;
+    height: 72px;
+}
+body{
+    background-color:black;
+}
+.noidungchinh{
+    margin-left: 235px;
+    margin-right: 235px;
+    background-color: white;
+}

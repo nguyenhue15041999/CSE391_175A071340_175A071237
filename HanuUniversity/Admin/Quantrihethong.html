@@ -9,47 +9,57 @@
     <link rel="stylesheet" href="css/quantri.css">
 </head>
 <body>
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
- 
-                <!-- Brand -->
-                <a class="navbar-brand" href="#">QUẢN TRỊ TRƯỜNG ĐẠI HỌC HÀ NỘI</a>
-        
-                <!-- Links -->
-                <ul  class="navbar-nav">
-                   
-                   <!-- Dropdown -->
-                   <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                    HELLO ADMIN
-                      </a>
-                    </li>
-                </ul>
-        
-             </nav>
-             
+        <div id="header">
+          <div class="title"> 
+            <a class="navbar-brand" href="#">QUẢN TRỊ TRƯỜNG ĐẠI HỌC HÀ NỘI</a></div>
+        <div class="ad_logout">
+           <ul  class="navbar-nav">
+            
+               <!-- Dropdown -->
+               <li class="nav-item ">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Admin
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                     <a class="dropdown-item" href="login.html">Log out</a>
+                  </div>
+                </li>
+            </ul>
+        </div>
+ </div>           
                     <div class="btn-group-vertical">
                             
-                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                                      Danh mục bài viết
-                                      <span class="caret"></span>
-                                    </button>
-                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                                            Bài viết
-                                            <span class="caret"></span>
-                                    </button>
-                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                                            slider
-                                            <span class="caret"></span>
-                                          </button>
-                                          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                                                video
-                                                <span class="caret"></span>
-                                              </button>
-                                           <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                                                    User
-                                                    <span class="caret"></span>
-                                             </button>
-                                            
+                                   <ul>
+                                     <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Danh mục
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                      <a class="dropdown-item" href="baiviet.html">Thêm bài viết</a>
+                                      <a class="dropdown-item" href="#">Chỉnh sửa bài viết</a>
+                                      <a class="dropdown-item" href="#">bài viết đã đăng</a>
+                                     
+                                    </div>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        video
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                          <a class="dropdown-item" href="#">Thêm video</a>
+                                          <a class="dropdown-item" href="#">Video đã đăng</a>
+                                         
+                                        </div>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                           User
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                              <a class="dropdown-item" href="#"></a>
+                                              <a class="dropdown-item" href="#"></a>
+                                             
+                                            </div>
+                                  </ul>
+                                   
                                             
   
                     </div>
@@ -60,7 +70,7 @@
                                         
                                          
                                         <div class="row">
-                                            <h3 style="color: #222222; ">Welcome to Web Admin</h3>
+                                            <h3 style="color: #222222; ">Welcome to Admin</h3>
                                         </div>
                                         <!-- /content -->
                                         <!-- /.row -->

@@ -1,15 +1,33 @@
  
-#page-wrapper {
-    padding: 10px;
+#header{
+    background-color: rgb(39, 39, 39);
+    height: 90px;
+    width: 100%;
 }
-
+.title{
+    margin-left: 10%;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+a{
+    color: white;
+}
+.ad_logout{
+    margin-left: 1000px;
+    padding-top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn-group-vertical{
+    background-color: rgb(99, 97, 97);
+    height: 200px;
+}
+ul li{
+   list-style: none;
+}
 
 .row {
     
-    margin-left: 100px;
-}
-.nd{
-    margin-left: 70px;
-    margin-top: -200px;
-
+    margin-left: 500px;
+    margin-top: -150px;
 }

@@ -65,8 +65,19 @@
     padding: 12px;
    
 }
+.item-1 {
+    background-color: #96200c;
+    
+}
+.item-1 a{
+    color: white;
+}
+.item-:hover{
+    background-color: #96200c;
+}
+
 #splitmenu a {
-    color: black;
+    color: red;
     float: left;
     list-style: none;
     height: 50px;

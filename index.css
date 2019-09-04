@@ -1,0 +1,82 @@
+#header {
+    background-color: #024282;
+    position: relative;
+    z-index: 100;
+    height: 40px;
+}
+.container {
+    width: auto !important;
+    max-width: 1200px;
+    height: 40px;
+}
+   
+
+ .h-wapper {
+    width: 65%;
+    height: 43px;
+    padding: 8px 30px 5px 5px;
+    height: 40px;
+    font-size: 13px;
+}
+.hm-nav{
+    width: 40%;
+    height: 35px;
+
+}
+.hm-nav p{
+    width: 25%;
+    color: rgb(247, 204, 64);
+}
+.hm-nav ul {
+    position: absolute;
+    left: 85px !important;
+    top: 0;
+    right: 0; 
+}
+.phone li{
+   
+    display: inline-block;
+   
+}
+.list a{
+    color: rgb(247, 204, 64);
+  
+    
+}
+
+
+
+#main{
+    display: flex;
+
+}
+#logo{
+   padding-top: 20px;
+   padding-left: 35px;
+    width: 25%;
+
+}
+#menu{
+    padding-top: 35px;
+    width: 75%;
+    margin-left: 40px;
+    
+}
+a{
+    color: black;
+    float: left;
+    height: 50px;
+    margin: 0 1px 0 0;
+    padding: 7px 10px;
+    border-bottom: none;
+    display: block;
+    font-size: 20px !important;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* flex-wrap : la tu dong xuong dong khi tran khung  */
+    /* justify-content :căn chỉnh phần tử */
+}
+a:hover{
+    color: rgb(197, 169, 8);
+    text-decoration: none;
+}
